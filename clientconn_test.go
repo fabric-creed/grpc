@@ -30,16 +30,16 @@ import (
 	"time"
 
 	"golang.org/x/net/http2"
-	"google.golang.org/grpc/backoff"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	internalbackoff "google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/naming"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/testdata"
+	"github.com/fabric-creed/grpc/backoff"
+	"github.com/fabric-creed/grpc/connectivity"
+	"github.com/fabric-creed/grpc/credentials"
+	internalbackoff "github.com/fabric-creed/grpc/internal/backoff"
+	"github.com/fabric-creed/grpc/internal/transport"
+	"github.com/fabric-creed/grpc/keepalive"
+	"github.com/fabric-creed/grpc/naming"
+	"github.com/fabric-creed/grpc/resolver"
+	"github.com/fabric-creed/grpc/resolver/manual"
+	"github.com/fabric-creed/grpc/testdata"
 )
 
 func assertState(wantState connectivity.State, cc *ClientConn) (connectivity.State, bool) {

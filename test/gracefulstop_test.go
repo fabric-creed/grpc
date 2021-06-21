@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/codes"
+	"github.com/fabric-creed/grpc/status"
+	testpb "github.com/fabric-creed/grpc/test/grpc_testing"
 )
 
 type delayListener struct {

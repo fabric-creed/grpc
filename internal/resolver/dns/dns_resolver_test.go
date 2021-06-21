@@ -30,10 +30,10 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/leakcheck"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/fabric-creed/grpc/internal/envconfig"
+	"github.com/fabric-creed/grpc/internal/leakcheck"
+	"github.com/fabric-creed/grpc/resolver"
+	"github.com/fabric-creed/grpc/serviceconfig"
 )
 
 func TestMain(m *testing.M) {

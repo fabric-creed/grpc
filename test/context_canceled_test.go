@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/encoding/gzip"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/codes"
+	"github.com/fabric-creed/grpc/encoding/gzip"
+	"github.com/fabric-creed/grpc/metadata"
+	"github.com/fabric-creed/grpc/status"
+	testpb "github.com/fabric-creed/grpc/test/grpc_testing"
 )
 
 func (s) TestContextCanceled(t *testing.T) {

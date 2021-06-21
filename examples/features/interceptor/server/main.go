@@ -29,14 +29,14 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/testdata"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/codes"
+	"github.com/fabric-creed/grpc/credentials"
+	"github.com/fabric-creed/grpc/metadata"
+	"github.com/fabric-creed/grpc/status"
+	"github.com/fabric-creed/grpc/testdata"
 
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	pb "github.com/fabric-creed/grpc/examples/features/proto/echo"
 )
 
 var (

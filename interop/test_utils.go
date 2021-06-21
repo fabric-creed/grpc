@@ -31,12 +31,12 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/codes"
+	"github.com/fabric-creed/grpc/grpclog"
+	testpb "github.com/fabric-creed/grpc/interop/grpc_testing"
+	"github.com/fabric-creed/grpc/metadata"
+	"github.com/fabric-creed/grpc/status"
 )
 
 var (

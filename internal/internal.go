@@ -24,7 +24,7 @@ import (
 	"context"
 	"time"
 
-	"google.golang.org/grpc/connectivity"
+	"github.com/fabric-creed/grpc/connectivity"
 )
 
 var (

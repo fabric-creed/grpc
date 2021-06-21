@@ -20,6 +20,6 @@
 package balancer
 
 import (
-	_ "google.golang.org/grpc/xds/internal/balancer/cdsbalancer" // Register the CDS balancer
-	_ "google.golang.org/grpc/xds/internal/balancer/edsbalancer" // Register the EDS balancer
+	_ "github.com/fabric-creed/grpc/xds/internal/balancer/cdsbalancer" // Register the CDS balancer
+	_ "github.com/fabric-creed/grpc/xds/internal/balancer/edsbalancer" // Register the EDS balancer
 )

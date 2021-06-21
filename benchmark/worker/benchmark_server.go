@@ -28,15 +28,15 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/benchmark"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/syscall"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/testdata"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/benchmark"
+	testpb "github.com/fabric-creed/grpc/benchmark/grpc_testing"
+	"github.com/fabric-creed/grpc/codes"
+	"github.com/fabric-creed/grpc/credentials"
+	"github.com/fabric-creed/grpc/grpclog"
+	"github.com/fabric-creed/grpc/internal/syscall"
+	"github.com/fabric-creed/grpc/status"
+	"github.com/fabric-creed/grpc/testdata"
 )
 
 var (

@@ -30,14 +30,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/binarylog/grpc_binarylog_v1"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/binarylog"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/metadata"
-	testpb "google.golang.org/grpc/stats/grpc_testing"
-	"google.golang.org/grpc/status"
+	"github.com/fabric-creed/grpc"
+	pb "github.com/fabric-creed/grpc/binarylog/grpc_binarylog_v1"
+	"github.com/fabric-creed/grpc/grpclog"
+	"github.com/fabric-creed/grpc/internal/binarylog"
+	"github.com/fabric-creed/grpc/internal/grpctest"
+	"github.com/fabric-creed/grpc/metadata"
+	testpb "github.com/fabric-creed/grpc/stats/grpc_testing"
+	"github.com/fabric-creed/grpc/status"
 )
 
 type s struct {

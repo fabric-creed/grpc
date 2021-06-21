@@ -36,11 +36,11 @@ import (
 
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/leakcheck"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/status"
+	"github.com/fabric-creed/grpc/codes"
+	"github.com/fabric-creed/grpc/internal/grpctest"
+	"github.com/fabric-creed/grpc/internal/leakcheck"
+	"github.com/fabric-creed/grpc/internal/testutils"
+	"github.com/fabric-creed/grpc/status"
 )
 
 type s struct {

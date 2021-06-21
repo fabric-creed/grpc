@@ -25,8 +25,8 @@ import (
 	"syscall"
 	"testing"
 
-	"google.golang.org/grpc/credentials/internal"
-	"google.golang.org/grpc/internal/grpctest"
+	"github.com/fabric-creed/grpc/credentials/internal"
+	"github.com/fabric-creed/grpc/internal/grpctest"
 )
 
 type s struct {

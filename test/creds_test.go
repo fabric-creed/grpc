@@ -25,10 +25,10 @@ import (
 	"context"
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	testpb "google.golang.org/grpc/test/grpc_testing"
-	"google.golang.org/grpc/testdata"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/credentials"
+	testpb "github.com/fabric-creed/grpc/test/grpc_testing"
+	"github.com/fabric-creed/grpc/testdata"
 )
 
 const (

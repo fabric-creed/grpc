@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/profiling/buffer"
+	"github.com/fabric-creed/grpc/internal/grpctest"
+	"github.com/fabric-creed/grpc/internal/profiling/buffer"
 )
 
 type s struct {

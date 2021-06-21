@@ -29,12 +29,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/stats"
-	testpb "google.golang.org/grpc/stats/grpc_testing"
-	"google.golang.org/grpc/status"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/internal/grpctest"
+	"github.com/fabric-creed/grpc/metadata"
+	"github.com/fabric-creed/grpc/stats"
+	testpb "github.com/fabric-creed/grpc/stats/grpc_testing"
+	"github.com/fabric-creed/grpc/status"
 )
 
 type s struct {

@@ -25,16 +25,16 @@ import (
 	"net"
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
-	xdsinternal "google.golang.org/grpc/xds/internal"
-	_ "google.golang.org/grpc/xds/internal/balancer/cdsbalancer" // To parse LB config
-	xdsclient "google.golang.org/grpc/xds/internal/client"
-	"google.golang.org/grpc/xds/internal/client/bootstrap"
-	"google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/fakeclient"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/internal"
+	"github.com/fabric-creed/grpc/resolver"
+	"github.com/fabric-creed/grpc/serviceconfig"
+	xdsinternal "github.com/fabric-creed/grpc/xds/internal"
+	_ "github.com/fabric-creed/grpc/xds/internal/balancer/cdsbalancer" // To parse LB config
+	xdsclient "github.com/fabric-creed/grpc/xds/internal/client"
+	"github.com/fabric-creed/grpc/xds/internal/client/bootstrap"
+	"github.com/fabric-creed/grpc/xds/internal/testutils"
+	"github.com/fabric-creed/grpc/xds/internal/testutils/fakeclient"
 
 	corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 )

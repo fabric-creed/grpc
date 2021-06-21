@@ -28,10 +28,10 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
+	"github.com/fabric-creed/grpc"
+	pb "github.com/fabric-creed/grpc/examples/helloworld/helloworld"
 
-	_ "google.golang.org/grpc/xds/experimental" // To install the xds resolvers and balancers.
+	_ "github.com/fabric-creed/grpc/xds/experimental" // To install the xds resolvers and balancers.
 )
 
 const (

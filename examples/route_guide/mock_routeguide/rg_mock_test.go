@@ -26,9 +26,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/golang/protobuf/proto"
-	rgmock "google.golang.org/grpc/examples/route_guide/mock_routeguide"
-	rgpb "google.golang.org/grpc/examples/route_guide/routeguide"
-	"google.golang.org/grpc/internal/grpctest"
+	rgmock "github.com/fabric-creed/grpc/examples/route_guide/mock_routeguide"
+	rgpb "github.com/fabric-creed/grpc/examples/route_guide/routeguide"
+	"github.com/fabric-creed/grpc/internal/grpctest"
 )
 
 type s struct {

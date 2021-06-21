@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/roundrobin"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/fabric-creed/grpc/balancer"
+	"github.com/fabric-creed/grpc/balancer/roundrobin"
+	"github.com/fabric-creed/grpc/connectivity"
+	"github.com/fabric-creed/grpc/internal"
+	"github.com/fabric-creed/grpc/resolver"
+	"github.com/fabric-creed/grpc/resolver/manual"
+	"github.com/fabric-creed/grpc/serviceconfig"
 )
 
 var _ balancer.Builder = &magicalLB{}

@@ -24,7 +24,7 @@ package connectivity
 import (
 	"context"
 
-	"google.golang.org/grpc/grpclog"
+	"github.com/fabric-creed/grpc/grpclog"
 )
 
 // State indicates the state of connectivity.

@@ -26,9 +26,9 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/testdata"
+	"github.com/fabric-creed/grpc/internal"
+	"github.com/fabric-creed/grpc/internal/grpctest"
+	"github.com/fabric-creed/grpc/testdata"
 )
 
 type s struct {

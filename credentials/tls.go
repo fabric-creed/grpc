@@ -26,7 +26,7 @@ import (
 	"github.com/fabric-creed/cryptogm/sm2"
 	"github.com/fabric-creed/cryptogm/tls"
 	"github.com/fabric-creed/cryptogm/x509"
-	"google.golang.org/grpc/credentials/internal"
+	"github.com/fabric-creed/grpc/credentials/internal"
 )
 
 // TLSInfo contains the auth information for a TLS authenticated connection.

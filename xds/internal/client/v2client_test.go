@@ -24,11 +24,11 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/fakeserver"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/resolver"
+	"github.com/fabric-creed/grpc/resolver/manual"
+	"github.com/fabric-creed/grpc/xds/internal/testutils"
+	"github.com/fabric-creed/grpc/xds/internal/testutils/fakeserver"
 
 	xdspb "github.com/envoyproxy/go-control-plane/envoy/api/v2"
 	basepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"

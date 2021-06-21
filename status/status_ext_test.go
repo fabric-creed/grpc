@@ -23,10 +23,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/test/grpc_testing"
+	"github.com/fabric-creed/grpc/codes"
+	"github.com/fabric-creed/grpc/internal/grpctest"
+	"github.com/fabric-creed/grpc/status"
+	"github.com/fabric-creed/grpc/test/grpc_testing"
 )
 
 type s struct {

@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/grpclog"
+	"github.com/fabric-creed/grpc/balancer"
+	"github.com/fabric-creed/grpc/balancer/base"
+	"github.com/fabric-creed/grpc/connectivity"
+	"github.com/fabric-creed/grpc/grpclog"
 )
 
 // handlePriorityChange handles priority after EDS adds/removes a

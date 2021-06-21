@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/fabric-creed/grpc/serviceconfig"
 )
 
 func (s) TestParse(t *testing.T) {

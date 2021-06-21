@@ -23,17 +23,17 @@ import (
 	"net"
 	"strconv"
 
-	"google.golang.org/grpc"
-	_ "google.golang.org/grpc/balancer/grpclb"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/alts"
-	"google.golang.org/grpc/credentials/google"
-	"google.golang.org/grpc/credentials/oauth"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/interop"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/testdata"
+	"github.com/fabric-creed/grpc"
+	_ "github.com/fabric-creed/grpc/balancer/grpclb"
+	"github.com/fabric-creed/grpc/credentials"
+	"github.com/fabric-creed/grpc/credentials/alts"
+	"github.com/fabric-creed/grpc/credentials/google"
+	"github.com/fabric-creed/grpc/credentials/oauth"
+	"github.com/fabric-creed/grpc/grpclog"
+	"github.com/fabric-creed/grpc/interop"
+	testpb "github.com/fabric-creed/grpc/interop/grpc_testing"
+	"github.com/fabric-creed/grpc/resolver"
+	"github.com/fabric-creed/grpc/testdata"
 )
 
 const (

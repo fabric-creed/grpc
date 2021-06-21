@@ -32,11 +32,11 @@ import (
 	"strconv"
 	"time"
 
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/health"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
-	"google.golang.org/grpc/reflection"
+	"github.com/fabric-creed/grpc"
+	pb "github.com/fabric-creed/grpc/examples/helloworld/helloworld"
+	"github.com/fabric-creed/grpc/health"
+	healthpb "github.com/fabric-creed/grpc/health/grpc_health_v1"
+	"github.com/fabric-creed/grpc/reflection"
 )
 
 var help = flag.Bool("help", false, "Print usage information")

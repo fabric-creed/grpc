@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/xds/internal/client/bootstrap"
-	"google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/fakeserver"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/internal/grpctest"
+	"github.com/fabric-creed/grpc/xds/internal/client/bootstrap"
+	"github.com/fabric-creed/grpc/xds/internal/testutils"
+	"github.com/fabric-creed/grpc/xds/internal/testutils/fakeserver"
 
 	corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 )

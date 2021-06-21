@@ -25,12 +25,12 @@ import (
 	"net"
 	"strings"
 
-	grpc "google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/alts"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/interop"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/tap"
+	grpc "github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/credentials/alts"
+	"github.com/fabric-creed/grpc/grpclog"
+	"github.com/fabric-creed/grpc/interop"
+	testpb "github.com/fabric-creed/grpc/interop/grpc_testing"
+	"github.com/fabric-creed/grpc/tap"
 )
 
 const (

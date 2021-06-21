@@ -26,9 +26,9 @@ import (
 	"net"
 	"sync"
 
-	"google.golang.org/grpc"
+	"github.com/fabric-creed/grpc"
 
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	pb "github.com/fabric-creed/grpc/examples/features/proto/echo"
 )
 
 var (

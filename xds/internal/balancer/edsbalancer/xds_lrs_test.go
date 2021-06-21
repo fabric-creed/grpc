@@ -21,11 +21,11 @@ package edsbalancer
 import (
 	"testing"
 
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/resolver"
-	xdsinternal "google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/testutils/fakeclient"
+	"github.com/fabric-creed/grpc/attributes"
+	"github.com/fabric-creed/grpc/balancer"
+	"github.com/fabric-creed/grpc/resolver"
+	xdsinternal "github.com/fabric-creed/grpc/xds/internal"
+	"github.com/fabric-creed/grpc/xds/internal/testutils/fakeclient"
 )
 
 // TestXDSLoadReporting verifies that the edsBalancer starts the loadReport

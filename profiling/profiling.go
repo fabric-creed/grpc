@@ -22,7 +22,7 @@
 package profiling
 
 import (
-	internal "google.golang.org/grpc/internal/profiling"
+	internal "github.com/fabric-creed/grpc/internal/profiling"
 )
 
 // Enable turns profiling on and off. This operation is safe for concurrent

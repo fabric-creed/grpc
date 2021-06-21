@@ -21,7 +21,7 @@
 // Package grpclb defines a grpclb balancer.
 //
 // To install grpclb balancer, import this package as:
-//    import _ "google.golang.org/grpc/balancer/grpclb"
+//    import _ "github.com/fabric-creed/grpc/balancer/grpclb"
 package grpclb
 
 import (
@@ -31,16 +31,16 @@ import (
 	"time"
 
 	durationpb "github.com/golang/protobuf/ptypes/duration"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer"
-	lbpb "google.golang.org/grpc/balancer/grpclb/grpc_lb_v1"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/resolver/dns"
-	"google.golang.org/grpc/resolver"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/balancer"
+	lbpb "github.com/fabric-creed/grpc/balancer/grpclb/grpc_lb_v1"
+	"github.com/fabric-creed/grpc/connectivity"
+	"github.com/fabric-creed/grpc/credentials"
+	"github.com/fabric-creed/grpc/grpclog"
+	"github.com/fabric-creed/grpc/internal"
+	"github.com/fabric-creed/grpc/internal/backoff"
+	"github.com/fabric-creed/grpc/internal/resolver/dns"
+	"github.com/fabric-creed/grpc/resolver"
 )
 
 const (

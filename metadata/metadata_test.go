@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"testing"
 
-	"google.golang.org/grpc/internal/grpctest"
+	"github.com/fabric-creed/grpc/internal/grpctest"
 )
 
 type s struct {

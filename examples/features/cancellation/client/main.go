@@ -26,10 +26,10 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	pb "google.golang.org/grpc/examples/features/proto/echo"
-	"google.golang.org/grpc/status"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/codes"
+	pb "github.com/fabric-creed/grpc/examples/features/proto/echo"
+	"github.com/fabric-creed/grpc/status"
 )
 
 var addr = flag.String("addr", "localhost:50051", "the address to connect to")

@@ -33,12 +33,12 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"google.golang.org/grpc"
-	_ "google.golang.org/grpc/balancer/grpclb"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/alts"
-	"google.golang.org/grpc/credentials/google"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	"github.com/fabric-creed/grpc"
+	_ "github.com/fabric-creed/grpc/balancer/grpclb"
+	"github.com/fabric-creed/grpc/credentials"
+	"github.com/fabric-creed/grpc/credentials/alts"
+	"github.com/fabric-creed/grpc/credentials/google"
+	testpb "github.com/fabric-creed/grpc/interop/grpc_testing"
 )
 
 var (

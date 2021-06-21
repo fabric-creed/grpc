@@ -31,9 +31,9 @@ import (
 	"runtime"
 	"strings"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/status"
+	"github.com/fabric-creed/grpc/codes"
+	"github.com/fabric-creed/grpc/peer"
+	"github.com/fabric-creed/grpc/status"
 )
 
 const (

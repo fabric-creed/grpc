@@ -23,14 +23,14 @@ import (
 	"context"
 	"fmt"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/resolver"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/attributes"
+	"github.com/fabric-creed/grpc/internal/grpclog"
+	"github.com/fabric-creed/grpc/resolver"
 
-	xdsinternal "google.golang.org/grpc/xds/internal"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
-	"google.golang.org/grpc/xds/internal/client/bootstrap"
+	xdsinternal "github.com/fabric-creed/grpc/xds/internal"
+	xdsclient "github.com/fabric-creed/grpc/xds/internal/client"
+	"github.com/fabric-creed/grpc/xds/internal/client/bootstrap"
 )
 
 // xDS balancer name is xds_experimental while resolver scheme is

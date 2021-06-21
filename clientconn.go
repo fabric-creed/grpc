@@ -30,24 +30,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/internal/grpcutil"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/status"
+	"github.com/fabric-creed/grpc/balancer"
+	"github.com/fabric-creed/grpc/balancer/base"
+	"github.com/fabric-creed/grpc/codes"
+	"github.com/fabric-creed/grpc/connectivity"
+	"github.com/fabric-creed/grpc/credentials"
+	"github.com/fabric-creed/grpc/internal/backoff"
+	"github.com/fabric-creed/grpc/internal/channelz"
+	"github.com/fabric-creed/grpc/internal/grpcsync"
+	"github.com/fabric-creed/grpc/internal/grpcutil"
+	"github.com/fabric-creed/grpc/internal/transport"
+	"github.com/fabric-creed/grpc/keepalive"
+	"github.com/fabric-creed/grpc/resolver"
+	"github.com/fabric-creed/grpc/serviceconfig"
+	"github.com/fabric-creed/grpc/status"
 
-	_ "google.golang.org/grpc/balancer/roundrobin"           // To register roundrobin.
-	_ "google.golang.org/grpc/internal/resolver/dns"         // To register dns resolver.
-	_ "google.golang.org/grpc/internal/resolver/passthrough" // To register passthrough resolver.
+	_ "github.com/fabric-creed/grpc/balancer/roundrobin"           // To register roundrobin.
+	_ "github.com/fabric-creed/grpc/internal/resolver/dns"         // To register dns resolver.
+	_ "github.com/fabric-creed/grpc/internal/resolver/passthrough" // To register passthrough resolver.
 )
 
 const (

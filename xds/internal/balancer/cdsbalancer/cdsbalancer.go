@@ -23,17 +23,17 @@ import (
 	"fmt"
 	"sync"
 
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/buffer"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/xds/internal/balancer/edsbalancer"
+	"github.com/fabric-creed/grpc/attributes"
+	"github.com/fabric-creed/grpc/balancer"
+	"github.com/fabric-creed/grpc/connectivity"
+	"github.com/fabric-creed/grpc/internal/buffer"
+	"github.com/fabric-creed/grpc/internal/grpclog"
+	"github.com/fabric-creed/grpc/resolver"
+	"github.com/fabric-creed/grpc/serviceconfig"
+	"github.com/fabric-creed/grpc/xds/internal/balancer/edsbalancer"
 
-	xdsinternal "google.golang.org/grpc/xds/internal"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
+	xdsinternal "github.com/fabric-creed/grpc/xds/internal"
+	xdsclient "github.com/fabric-creed/grpc/xds/internal/client"
 )
 
 const (
