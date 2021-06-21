@@ -20,7 +20,9 @@
 
 package credentials
 
-import "crypto/tls"
+import (
+	"github.com/fabric-creed/cryptogm/tls"
+)
 
 // This init function adds cipher suite constants only defined in Go 1.12.
 func init() {
